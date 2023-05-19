@@ -115,15 +115,7 @@ if(isset($_POST['order_btn'])){
             <span>Your email :</span>
             <input type="email" name="email" required placeholder="Enter Your Email Here">
          </div>
-         <!-- <div class="inputBox">
-            <span>Payment method :</span>
-            <select name="method">
-               <option value="cash on delivery">Cash on delivery</option>
-               <option value="credit card">Credit card</option>
-               <option value="paypal">Paypal</option>
-               <option value="paytm">Paytm</option>
-            </select>
-         </div> -->
+    
          <div class="inputBox">
             <span>Enter Flat No/House No:</span>
             <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
